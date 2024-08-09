@@ -2,6 +2,8 @@
 #   Text to speech convertor using gTTs (Goolgle Text To Speech)  #
 # =============================================================== #
 
+# pip install gtts
+
 from gtts import gTTS
 import os, easygui
 
