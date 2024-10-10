@@ -6,6 +6,7 @@ def send(listbox, entry):
     # Send a message to the client
     message = entry.get()
     listbox.insert("end", "Me: "+message)
+    entry.delete(0,END)
     client.send(bytes(message, "utf-8"))
 
 
